@@ -33,7 +33,7 @@ export default function Header({ cartCount, onCartClick, onMenuClick }: HeaderPr
         </button>
 
         {/* Logo */}
-        <a href="/" className="text-xl font-bold tracking-tight whitespace-nowrap">
+        <a href="#catalog" className="text-xl font-bold tracking-tight whitespace-nowrap">
           BRAND
         </a>
 
