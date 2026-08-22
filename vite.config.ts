@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // 👇 Добавь эту строку
-const baseName = '/shop-tamplate/' // или '/shop-template/' если переименуешь
+const baseName = '/vite-react-7y74tlxv/' // или '/vite-react-7y74tlxv/' если переименуешь
 
 export default defineConfig({
   plugins: [react()],
