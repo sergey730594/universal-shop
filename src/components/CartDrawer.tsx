@@ -43,13 +43,13 @@ export default function CartDrawer({
   return (
     <>
       <div
-        className={`fixed inset-0 z-50 bg-black/40 transition-opacity ${
+        className={`fixed inset-0 z-9998 bg-black/40 transition-opacity ${
           open ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
         onClick={onClose}
       />
       <aside
-        className={`fixed top-0 right-0 z-50 h-full w-full sm:w-[420px] bg-white border-l border-gray-200 transform transition-transform duration-200 ease-out flex flex-col ${
+        className={`fixed top-0 right-0 z-59999 h-full w-full sm:w-[420px] bg-white border-l border-gray-200 transform transition-transform duration-200 ease-out flex flex-col ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
